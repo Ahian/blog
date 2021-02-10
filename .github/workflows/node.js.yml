@@ -16,9 +16,9 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
             token: ${{ secrets.ACCESS_TOKEN }}
-            branch: gh-pages
+            branch: gh-pages 
             BUILD_SCRIPT: yarn && yarn build
-            FOLDER: .vuepress/dist
+            folder: build
             clean: true
             clean-exclude: |
               special-file.txt
