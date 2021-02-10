@@ -18,4 +18,6 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: .vuepress/dist
-          BUILD_SCRIPT: npm install && npm run build
+          BUILD_SCRIPT: yarn && yarn build
+
+
