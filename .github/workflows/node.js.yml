@@ -19,7 +19,6 @@ jobs:
             branch: gh-pages
             BUILD_SCRIPT: yarn && yarn build
             FOLDER: .vuepress/dist
-            
             clean: true
             clean-exclude: |
               special-file.txt
