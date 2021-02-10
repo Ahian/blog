@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Hello VuePress! | Tsanfer&#39;s Blog</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="icon" href="/blog/img/favicon.ico">
+    <meta name="description" content="现居住于猎户臂上的一个碳基生命">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.d5f70716.css" as="style"><link rel="preload" href="/blog/assets/js/app.9d975a98.js" as="script"><link rel="preload" href="/blog/assets/js/2.2c25d4ce.js" as="script"><link rel="preload" href="/blog/assets/js/8.a468edde.js" as="script"><link rel="prefetch" href="/blog/assets/js/3.9f41a7be.js"><link rel="prefetch" href="/blog/assets/js/4.9d8efee8.js"><link rel="prefetch" href="/blog/assets/js/5.cb600e9e.js"><link rel="prefetch" href="/blog/assets/js/6.c8b7a84a.js"><link rel="prefetch" href="/blog/assets/js/7.fbe56bcc.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.d5f70716.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" aria-current="page" class="home-link router-link-exact-active router-link-active"><img src="/blog/img/novel.png" alt="Tsanfer's Blog" class="logo"> <span class="site-name can-hide">Tsanfer's Blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Home
+</a></div><div class="nav-item"><a href="/blog/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Home
+</a></div><div class="nav-item"><a href="/blog/guide/" class="nav-link">
+  Guide
+</a></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="hello-vuepress"><a href="#hello-vuepress" class="header-anchor">#</a> Hello VuePress!</h1> <p>[TOC]</p> <h1 id="gitflow规范"><a href="#gitflow规范" class="header-anchor">#</a> gitflow规范</h1> <h3 id="实际开发"><a href="#实际开发" class="header-anchor">#</a> 实际开发</h3> <div class="language-bash extra-class"><pre class="language-bash"><code>签出版本
+<span class="token function">git</span> checkout -b feature/xxx
+
+提交commit
+<span class="token function">git</span> commit -a -m <span class="token string">&quot;feat: do something&quot;</span>
+
+推送
+<span class="token function">git</span> push -u origin feature/xxx
+</code></pre></div><p><a href="https://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="noopener noreferrer">git - 简明指南<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="原理"><a href="#原理" class="header-anchor">#</a> 原理</h2> <p>本地仓库（三棵“树”）</p> <ul><li>工作目录（持有实际文件）</li> <li>暂存区（缓存区域，临时保存变动）</li> <li>HEAD（指向最后一次的提交）</li></ul> <h1 id="base-git"><a href="#base-git" class="header-anchor">#</a> base git</h1> <h2 id="create-clone"><a href="#create-clone" class="header-anchor">#</a> create &amp; clone</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>初始化
+<span class="token function">git</span> init
+
+克隆仓库（本地或远程）
+<span class="token function">git</span> clone <span class="token operator">&lt;</span>path<span class="token operator">&gt;</span><span class="token punctuation">(</span>克隆目标仓库<span class="token punctuation">)</span>
+</code></pre></div><h2 id="add-remove"><a href="#add-remove" class="header-anchor">#</a> add &amp; remove</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>暂存更改到暂存区
+<span class="token function">git</span> <span class="token function">add</span> <span class="token operator">&lt;</span>filename<span class="token operator">&gt;</span>
+<span class="token function">git</span> <span class="token function">add</span> *
+
+移除暂存的更改
+<span class="token function">git</span> remove <span class="token operator">&lt;</span>filename<span class="token operator">&gt;</span>
+</code></pre></div><h2 id="commit-synchronize"><a href="#commit-synchronize" class="header-anchor">#</a> commit &amp; synchronize</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>提交变更到HEAD
+<span class="token function">git</span> commit -m <span class="token string">&quot;代码提交信息&quot;</span>
+
+推送到远程
+<span class="token function">git</span> push origin <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span>
+
+添加远程仓库
+<span class="token function">git</span> remote <span class="token function">add</span> origin <span class="token operator">&lt;</span>server<span class="token operator">&gt;</span>
+
+更新本地仓库（拉取远程仓库）pull <span class="token operator">=</span> 获取（fetch）+ 合并（merge） 
+<span class="token function">git</span> pull
+</code></pre></div><h2 id="branches"><a href="#branches" class="header-anchor">#</a> branches</h2> <p>default local branch: <code>master</code></p> <p>开发新特性时，签出一个新分支，开发完成再合并回master</p> <div class="language-bash extra-class"><pre class="language-bash"><code>create branch“feature_x”，and switch：
+<span class="token function">git</span> checkout -b feature_x
+
+switch branch
+<span class="token function">git</span> checkout master
+
+delete branch
+<span class="token number">1</span>.delete <span class="token builtin class-name">local</span>
+<span class="token number">1.1</span> -d：short of --delete，
+<span class="token function">git</span> branch -d <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span>
+<span class="token function">git</span> branch -D <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span>
+
+<span class="token number">1.2</span>
+
+<span class="token number">2</span>. delete remote
+</code></pre></div><h2 id="merge"><a href="#merge" class="header-anchor">#</a> merge</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>合并其他分支到当前分支
+<span class="token function">git</span> merge <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span>
+
+
+after fix confict,need <span class="token function">add</span> changes：
+<span class="token function">git</span> <span class="token function">add</span> <span class="token operator">&lt;</span>filename<span class="token operator">&gt;</span>
+
+<span class="token function">diff</span>
+<span class="token function">git</span> <span class="token function">diff</span> <span class="token operator">&lt;</span>source_branch<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>target_branch<span class="token operator">&gt;</span>
+</code></pre></div><h2 id="tag"><a href="#tag" class="header-anchor">#</a> tag</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>tag a commit
+<span class="token function">git</span> tag <span class="token operator">&lt;</span>tag<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>commit ID<span class="token operator">&gt;</span>
+
+<span class="token punctuation">(</span>get commit ID<span class="token punctuation">)</span>
+<span class="token function">git</span> log
+</code></pre></div><h2 id="log"><a href="#log" class="header-anchor">#</a> log</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>glg
+<span class="token function">git</span> log
+
+only <span class="token function">watch</span> target author
+<span class="token function">git</span> log --author<span class="token operator">=</span>songyuehang
+
+display single line
+<span class="token function">git</span> log --pretty<span class="token operator">=</span>oneline
+
+glgp树形结构显示
+<span class="token function">git</span> log --graph --oneline --decorate --all
+
+看哪些文件改变了
+<span class="token function">git</span> log --name-status
+
+<span class="token function">git</span> log --help
+
+</code></pre></div><h2 id="restore"><a href="#restore" class="header-anchor">#</a> restore</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>从HEAD 签出单文件
+<span class="token function">git</span> checkout --<span class="token operator">&lt;</span>filename<span class="token operator">&gt;</span>
+
+丢弃本地改动
+<span class="token function">git</span> fetch origin
+
+回退（丢弃，彻底消失）
+<span class="token function">git</span> reset --hard origin/master
+
+丢弃提交（丢弃指针、暂存区）
+<span class="token function">git</span> reset <span class="token operator">&lt;</span>SHA<span class="token operator">&gt;</span>
+
+加hard 可以让工作区文件也丢弃
+<span class="token function">git</span> reset --hard <span class="token punctuation">[</span>last good SHA<span class="token punctuation">]</span>
+
+reset找回
+<span class="token function">git</span> reflog
+
+
+full：
+彻底回退
+<span class="token function">git</span> reset --hard  origin/master
+
+only reset commit message
+<span class="token function">git</span> reset --soft
+
+<span class="token function">git</span> reset --mixed
+
+<span class="token comment">### </span>
+撤销（创建一个新的commit来抵消上次commit）
+<span class="token function">git</span> revert HEAD
+
+撤销多次提交
+<span class="token function">git</span> revert <span class="token punctuation">[</span>倒数第一个提交<span class="token punctuation">]</span> <span class="token punctuation">[</span>倒数第二个提交<span class="token punctuation">]</span>
+
+还有两个参数
+--no-commit（只抵消暂存区和工作区变化，不产生新的提交）
+--no-edit（执行时不打开默认编辑器，直接使用 Git 自动生成的提交信息。）
+
+commit消息替换
+<span class="token function">git</span> commit --amend -m <span class="token string">&quot;Fixes bug #42&quot;</span>
+</code></pre></div><h2 id="放错分支"><a href="#放错分支" class="header-anchor">#</a> 放错分支</h2> <p>把应该放另一个分支的东西，放错了放在当前分支上</p> <div class="language-bash extra-class"><pre class="language-bash"><code>新建一个feature 分支，他会指向最新提交
+<span class="token function">git</span> branch feature/xxx
+ 
+把当前分支的提交切回更改前版本
+<span class="token function">git</span> reset --hard <span class="token punctuation">[</span>当前分支此前的最后一次提交<span class="token punctuation">]</span>
+
+切到feature 的分支
+<span class="token function">git</span> checkout feature/xxx
+</code></pre></div><p>reset vs revert</p> <ul><li><p>git revert 后多出一条commit ，提醒同事，这里有回撤操作</p> <p>创建逆向commit 来抵消提交（不会改变已存在的提交）</p></li> <li><p>git reset 直接删commit，不留痕迹。</p> <p>直接把之前 commit 删掉，非git reset --hard的操作是不会删掉修改代码，如果远程已经有之前代码，需要强推 git push -f</p></li></ul> <ol><li><p>提交不要，代码要（默认）</p></li> <li><p>提交和代码都不要，加hard</p> <p>git reset commit/xxx --hard</p> <p>推送远程</p> <p>git push -f</p></li></ol> <p>参数</p> <p>--soft 回退后a分支修改的代码被保留并标记为add的状态（git status 是绿色的状态）</p> <p>--mixed （默认）重置索引，但不重置工作树，还原文件为未提交（add）。</p> <p>--hard 提交、变更、暂存区都清空</p> <p>--merge 和--hard类似，只不过如果在执行reset命令之前你有改动一些文件并且未提交，merge会保留你的这些修改，hard则不会。【注：如果你的这些修改add过或commit过，merge和hard都将删除你的提交】</p> <p>--keep 和--hard类似，执行reset之前改动文件如果是a分支修改了的，会提示你修改了相同的文件，不能合并。如果不是a分支修改的文件，会移除缓存区。git status还是可以看到保持了这些修改。</p> <h1 id="系统学习"><a href="#系统学习" class="header-anchor">#</a> 系统学习</h1> <h2 id="基本概念"><a href="#基本概念" class="header-anchor">#</a> 基本概念</h2> <h3 id="origin"><a href="#origin" class="header-anchor">#</a> origin</h3> <p>在了解<code>origin/master</code>和<code>master</code>之前,我们需要先了解一下<code>git clone</code>做了什么.
+假设有一个服务器<code>git.mycompany.com</code>,执行<code>git clone</code>指令后</p> <blockquote><p>1.自动将远程服务器命名为<code>origin</code>
+2.下载该服务下的所有数据
+3.创建一个指向master分支的指针,并将该分支命名为origin/master
+4.创建名为master的本地分支,并且和远程分支在同一个提交节点</p></blockquote> <p>tips:<code>origin</code>并不特别,就像分支名<code>master</code>在git中没有任何特殊意义一样.当执行<code>git init</code>时,<code>master</code>会作为初始分支的默认名字,因此使得<code>master</code>分支名被广泛使用.而<code>origin</code>是执行<code>git clone</code>时的默认服务器名称,当然可以通过指令<code>git clone -o cat</code>,使得默认服务器名称为<code>cat</code>,而默认远程分支为<code>cat/master</code>.</p> <h4 id="master-origin-master"><a href="#master-origin-master" class="header-anchor">#</a> master &amp; origin/master</h4> <p><code>master</code> is local copy of the remoter branch <code>origin/master</code></p> <blockquote><p>(remote &amp; branch names are inspecial, like:  <code>cat/main</code>)</p></blockquote> <h4 id="追踪分支"><a href="#追踪分支" class="header-anchor">#</a> 追踪分支</h4> <p>从<strong>远程分支</strong><code>check out</code>签出一个<strong>本地分支</strong>,该本地分支被称为<strong>追踪分支</strong>(tracking branch),被追踪的分支被称为上游分支(upstream branch),</p> <p>追踪分支可以理解为是和远程分支有直接关联的本地分支.</p> <blockquote><p>如果我们在追踪分支时执行<code>git pull</code>,git会自动知道需要获取和merge的分支的服务器.</p> <p>执行<code>git clone</code>创建了本地仓库后,会自动创建一个追踪<code>origin/master</code>分支的本地追踪分支<code>master</code>,当然我们也可以根据需求添加其他的追踪分支.</p></blockquote> <h5 id="创建新的追踪分支"><a href="#创建新的追踪分支" class="header-anchor">#</a> 创建新的追踪分支</h5> <p><code>git checkout -b [branch] [remotename]/[branch]</code></p> <p>git还提供了通用的<code>--track</code>简写操作: <code>git checkout --track origin/dev</code>,</p> <p>它做了什么呢?</p> <ol><li>分支<code>dev</code>被设定为追踪服务器为<code>origin</code>上的远程分支<code>dev</code></li> <li>切换到<code>dev</code>分支上</li></ol> <p>如果<code>checkout</code>的分支本地不存在,但是和远程分支名一样,git会自动创建追踪分支,并且切换到该分支 :  <code>git checkout [branch]</code>
+本地分支必须和远程分支同名吗?当然不是,我们也可以为本地分支设置不同于远程分支的名字 :  <code>git checkout -b aaa origin/bbb</code>,这样本地<code>aaa</code>为远程<code>bbb</code>的追踪分支.</p> <div class="language-bash extra-class"><pre class="language-bash"><code>查看分支
+<span class="token function">git</span> branch -a
+
+创建追踪分支
+<span class="token function">git</span> checkout -b <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>remote<span class="token operator">&gt;</span>/<span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span> <span class="token comment"># 从远程分支签出一个分支到本地</span>
+<span class="token function">git</span> checkout --track origin/dev <span class="token comment"># 缩写</span>
+<span class="token function">git</span> checkout <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span> <span class="token comment"># 如果本地没有该分支但是远程有，也会签出对应的追踪分支</span>
+
+给一个分支设置上游分支（生成新的追踪分支）
+<span class="token function">git</span> <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span> -u oringin/master
+<span class="token function">git</span> <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span> --set-upstream-to oringin/master
+
+<span class="token function">git</span> push --set-upstream origin master
+
+查看上游分支
+<span class="token function">git</span> branch -vv
+
+删除本地分支
+<span class="token function">git</span> branch -d <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span>
+
+删除远程分支（只移除指针）
+<span class="token function">git</span> push origin -d <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span>
+
+删除追踪分支
+<span class="token function">git</span> branch -d --remotes origin/<span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span>
+
+上游分支缩写
+<span class="token function">git</span> merge @<span class="token punctuation">{</span>u<span class="token punctuation">}</span>
+<span class="token function">git</span> merge @<span class="token punctuation">{</span>upstream<span class="token punctuation">}</span>
+<span class="token comment"># 等价于</span>
+<span class="token function">git</span> merge origin/master
+
+分支重命名
+
+<span class="token function">git</span> branch -m 
+</code></pre></div><h2 id="alias-zsh-git-plugin"><a href="#alias-zsh-git-plugin" class="header-anchor">#</a> alias（zsh git plugin）</h2> <p>https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git</p> <table><thead><tr><th></th></tr></thead> <tbody><tr><td></td></tr></tbody></table></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.9d975a98.js" defer></script><script src="/blog/assets/js/2.2c25d4ce.js" defer></script><script src="/blog/assets/js/8.a468edde.js" defer></script>
+  </body>
+</html>
