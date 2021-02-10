@@ -8,7 +8,7 @@
     "build": "vuepress build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/anick-xs/blog",
+  "homepage": "https://github.com/Ahian/blog",
   "keywords": [],
   "author": "",
   "license": "ISC",
