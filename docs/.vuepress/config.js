@@ -15,5 +15,5 @@ module.exports = {
       // 	在上方修改添加
       },
       base:'/blog/',
-      dest:'public'
+      // dest:'public'
   }
