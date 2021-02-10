@@ -12,12 +12,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
-      - name: Build and Deploy
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.0.0
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: .vuepress/dist
-          BUILD_SCRIPT: yarn && yarn build
+        with:
+            token: ${{ secrets.ACCESS_TOKEN }}
+            branch: gh-pages
+            BUILD_SCRIPT: yarn && yarn build
+            FOLDER: .vuepress/dist
+            
+            clean: true
+            clean-exclude: |
+              special-file.txt
+              some/*.txt
 
 
